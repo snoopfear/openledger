@@ -46,7 +46,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/bin/openledger-node
+ExecStart=/usr/bin/openledger-node --no-sandbox
 Restart=always
 RestartSec=10
 
